@@ -1,0 +1,63 @@
+/* 
+Name: HengXing Liu 2022229044
+Assignment: Create 4 files related to a recipe web site for a fictional pie company
+File Content: CSS Style of the pie.html 
+*/
+body{
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #404040;
+    font-size: 12pt;
+    font-family: Georgia, Garamond;
+    background-image: url("silverware.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+
+pre {
+    color: #404040;
+    font-size: 12pt;
+    font-family: Georgia, Garamond;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #A4A400;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    text-decoration: underline;
+    font-size: 18pt;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+}
+
+a {
+    color: #A4A400;
+}
+
+ul {
+    list-style-type: square;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+
+
+footer {
+    font-size: 10pt;
+    color: white;
+    text-align: right;
+    background-color: #BFBF56;
+    padding: 1px;
+}
+
+footer img {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
