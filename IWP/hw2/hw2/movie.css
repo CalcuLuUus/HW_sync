@@ -1,0 +1,47 @@
+/* put your CSS here */
+
+div#headline{
+    background-image: url(images/rancidbannerbg.png);
+    background-repeat: repeat-x;
+    text-align: center;
+    height: 50px;
+}
+
+h1#title {
+    text-align: center;
+    font-size: 24pt;
+    font-family: 'Georgia', 'Times New Roman';
+    text-shadow: 3px 3px #999999;
+}
+
+div#overall {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    overflow: hidden;
+}
+
+div#rightsection{
+    width: 250px;
+    font-size: 10pt;
+    font-family: 'Arial', "Helvetica";
+    float: right;
+}
+
+div#leftsection{
+    width: 550px;
+    float: left;
+}
+
+div#leftsection div{
+    background-image: url(images/rottenlargebg.png);
+    background-repeat: repeat-x;
+    height: 83px;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    line-height: 83px;
+}
+
