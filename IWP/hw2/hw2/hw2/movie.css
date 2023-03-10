@@ -64,7 +64,7 @@ div#headofcomment{
     font-size: 48pt;
     color: red;
     font-weight: bold;
-    vertical-align: text-bottom;
+    line-height: 83px;
 }
 
 div#headofcomment img{
