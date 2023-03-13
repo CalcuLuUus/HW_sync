@@ -1,0 +1,124 @@
+/* put your CSS here */
+
+div#headline {
+    background-image: url(images/rancidbannerbg.png);
+    background-repeat: repeat-x;
+    text-align: center;
+    height: 50px;
+}
+
+div#backhome {
+    text-align: right;
+    position: fixed;
+    top: 60px;
+    right: 10px;
+}
+
+h1#title {
+    text-align: center;
+    font-size: 24pt;
+    font-family: Georgia, Times New Roman;
+    text-shadow: 3px 3px #999999;
+}
+
+div#overall {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    overflow: hidden;
+    background-color: #A2B964;
+}
+
+div#rightsection {
+    width: 250px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica;
+    float: right;
+
+}
+
+div#poster {
+    float: right;
+}
+
+
+div#intro dl {
+    margin: 10pt;
+}
+
+div#intro dl dt {
+    margin-top: 10pt;
+    font-weight: bold;
+}
+
+div#intro ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+div#leftsection {
+    width: 550px;
+    float: left;
+    background-color: #EEEEEE;
+}
+
+div#headofcomment {
+    background-image: url(images/rottenlargebg.png);
+    background-repeat: repeat-x;
+    height: 83px;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    vertical-align: text-bottom;
+}
+
+div#headofcomment img {
+    float: left;
+}
+
+
+div#leftcommentarea {
+    float: left;
+    width: 47%;
+    margin-left: 1.5%;
+}
+
+div#rightcommentarea {
+    float: right;
+    width: 47%;
+    margin-right: 1.5%;
+}
+
+p.comment {
+    font-size: 10pt;
+    background-color: #FFFFFF;
+    border: solid 2px #CCCCCC;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman';
+    padding: 8px;
+}
+
+p.comment img {
+    float: left;
+    margin-right: 5px;
+}
+
+p.infoandicon {
+    font-size: 10pt;
+    font-family: Georgia, 'Times New Roman';
+}
+
+p.infoandicon img {
+    margin-right: 5px;
+    float: left;
+}
+
+div#bottom {
+    text-align: center;
+    background-color: #A2B964;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
