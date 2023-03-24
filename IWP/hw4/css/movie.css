@@ -1,0 +1,158 @@
+/*///// style for the body elements /////*/
+
+body {
+	background-image: url("../images/moviebg.png");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;
+	 /* word-break: break-all; to break long words, for example inside reviews */
+}
+
+
+/* Top banner */
+
+#banner {
+	background-image: url("../images/rancidbannerbg.png");
+	background-repeat: repeat;
+	text-align: center;
+}
+
+/*///// heading title /////*/
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 24pt;
+	font-weight: bold;
+	text-shadow: 3px 3px #999999;
+	text-align: center;
+}
+
+/*///// Content page /////*/
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 800px;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #A2B964;
+}
+
+/*///// Right part of the content page /////*/
+
+#right-content {
+	float: right;
+	width: 250px;
+}
+
+dl {
+	padding-left: 10px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 5pt;
+}
+
+dd ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+/*///// Left part of the content page /////*/
+
+#left-content {
+	background-color: #EEEEEE;
+	width: 550px;
+	float: left;
+}
+
+#left-content div img {
+	float: left;
+}
+
+#left-content p {
+	clear: left;
+}
+
+#left-banner {
+	background-image: url("../images/rottenlargebg.png");
+	background-repeat: repeat;
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+	height: 83px;
+	width: 550px;
+	float: left;
+}
+
+#left-column {
+	float:left;
+	width: 47%;
+	padding-left: 10px;
+	background-color: inherit;
+}
+
+#right-column {
+	float: right;
+	width: 47%;
+	padding-right: 10px;
+	background-color: inherit;
+}
+
+.quote {
+	border-radius: 20px;
+	background-color: white;
+	padding: 10px;
+	border: solid 2px #CCCCCC;
+}
+
+.quote img {
+	margin-right: 5px;
+}
+
+/*///// Style for the page number /////*/
+
+#pagenumber {
+	clear:both;
+	text-align: center;
+}
+
+
+#back {
+	text-decoration: none;
+	border-style: none;
+	position: fixed;
+	top: 60px;
+	right: 10px;
+}
+
+#addreview {
+	text-align: center;
+	box-shadow: 2px 2px 2px gray;
+  	border-radius: 10px;
+}
+
+#addreview a {
+	text-decoration: none;
+}
+
+#footer {
+	background-image: url("../images/rancidbannerbg.png");
+	color: #DDE2D2;
+	font-weight: bold;
+	background-repeat: repeat-x;
+	width: 100%;
+	text-align: right;
+	padding: 5px;
+}
+
+#footer img {
+	vertical-align: middle;
+}
