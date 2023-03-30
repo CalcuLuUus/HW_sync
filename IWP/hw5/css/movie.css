@@ -1,0 +1,109 @@
+
+/*///// heading title /////*/
+
+h1 {
+	text-shadow: 3px 3px #999999;
+}
+
+
+/*///// Right part of the content page /////*/
+
+#right-content {
+	float: right;
+	width: 250px;
+}
+
+dl {
+	padding-left: 10px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 5pt;
+}
+
+dd ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+/*///// Left part of the content page /////*/
+
+#left-content {
+	background-color: #EEEEEE;
+	width: 550px;
+	float: left;
+}
+
+#left-content div img {
+	float: left;
+}
+
+#left-content p {
+	clear: left;
+}
+
+#left-banner {
+	background-image: url("../images/rottenlargebg.png");
+	background-repeat: repeat;
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+	height: 83px;
+	width: 550px;
+	float: left;
+}
+
+#left-column {
+	float:left;
+	width: 47%;
+	padding-left: 10px;
+	background-color: inherit;
+}
+
+#right-column {
+	float: right;
+	width: 47%;
+	padding-right: 10px;
+	background-color: inherit;
+}
+
+.quote {
+	border-radius: 20px;
+	background-color: white;
+	padding: 10px;
+	border: solid 2px #CCCCCC;
+}
+
+.quote img {
+	margin-right: 5px;
+}
+
+/*///// Style for the page number /////*/
+
+#pagenumber {
+	clear:both;
+	text-align: center;
+}
+
+
+#back {
+	text-decoration: none;
+	border-style: none;
+	position: fixed;
+	top: 60px;
+	right: 10px;
+}
+
+#addreview {
+	text-align: center;
+	box-shadow: 2px 2px 2px gray;
+  	border-radius: 10px;
+}
+
+#addreview a {
+	text-decoration: none;
+}

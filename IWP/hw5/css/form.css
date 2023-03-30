@@ -1,0 +1,49 @@
+
+/*///// Form /////*/ 
+
+form {
+	padding: 20px;
+	font-size: 11pt;
+}
+
+form div {
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+label {
+    width:110px;
+    float:left;
+   	font-size: 120%;
+    line-height:24px;
+    font-weight:bold;
+
+}
+
+input {
+    width:300px;
+    margin-bottom:5px;
+    line-height:18px;
+    padding:5px 10px;
+    border-radius: 5px;
+    border:1px solid #CCC;
+}
+
+input[type="radio"] {
+	width:30px;
+}
+
+#submit {
+    text-align: center;
+    width: 100px;
+}
+
+div.error {
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 0 30% 0 30%;
+}

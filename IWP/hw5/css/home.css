@@ -1,0 +1,52 @@
+
+ul {
+
+	list-style-type: none;
+}
+
+li {
+/*	
+	background-image: url("../images/fresh.gif");
+	background-repeat: no-repeat;
+  	padding: 5px 0px 20px 30px;
+    reset styles (optional):
+*/
+  	list-style: none;
+  	margin-top: 10px;
+}
+
+li img {
+	width: 50px;
+	vertical-align: middle;
+}
+
+a.link {
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14pt;
+	color: black;
+  	padding: 2px;
+}
+
+a.link:hover {
+	box-shadow: 2px 2px 2px gray;
+  	border: dotted 1px gray;
+  	background-image: url("../images/moviebg.png");
+}
+
+#addlink {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#addlink a {
+	text-decoration: none;
+	color: inherit;
+	font-size:14pt;
+	font-weight: bold;
+	padding: 5px;
+	box-shadow: 4px 4px 4px gray;
+  	border: dotted 1px gray;
+  	border-radius: 10px;
+  	background-image: url("../images/moviebg.png");
+}
