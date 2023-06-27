@@ -1,0 +1,20 @@
+public class EstablishedState implements State {
+
+    @Override
+    public void doUse(Context context) {
+        System.out.println("TCP establisted state");
+        context.setState(this);
+    }
+    
+    @Override
+    public String toString() {
+        return this.getClass().getName() + "......";
+    }
+
+    @Override
+    public void toNext(Context context) {
+        System.out.println("Changing State......");
+        ListeningState listeningState = new ListeningState();
+        listeningState.doUse(context);
+    }
+}

@@ -1,0 +1,87 @@
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th, td {
+	padding: 5px;
+}
+
+table input[type="text"] {
+	width: 100px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+a:hover {
+	color: white;
+	background-color: black;
+}
+
+table a {
+    border-style: none;
+}
+
+#banner {
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-bottom: solid 1px black;
+}
+
+#banner > img {
+	float: left;
+	width: 50px;
+}
+
+#banner img {
+	width: 50px;
+	vertical-align: middle;
+}
+
+#banner a, #banner a:hover {
+	text-decoration: none;
+	border: none;
+	background-color: inherit;
+}
+
+#banner > span {
+	float: right;
+}
+
+#container {
+	clear: both;
+	margin: auto;
+	width: 800px;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding: 30px;
+}
+
+#container h1, h2 {
+	text-align: center;
+}
+
+#signin {
+	margin: auto;
+	width: 800px;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-top: 50px;
+	padding: 30px;
+	text-align: center;	
+} 
+
+#signin h4 {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	border-top: 1px solid black;
+}

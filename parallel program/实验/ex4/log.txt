@@ -1,0 +1,17 @@
+Process_num: 1 Thread_num: 1 TIME: 4.80116
+1 process N thread
+Process_num: 1 Thread_num: 2 TIME: 3.25352
+Process_num: 1 Thread_num: 4 TIME: 2.33343
+Process_num: 1 Thread_num: 8 TIME: 1.81024
+Process_num: 1 Thread_num: 16 TIME: 1.66132
+Process_num: 1 Thread_num: 32 TIME: 1.55514
+N process 1 thread
+Process_num: 2 Thread_num: 1 TIME: 2.79078
+Process_num: 4 Thread_num: 1 TIME: 1.88323
+Process_num: 8 Thread_num: 1 TIME: 1.3298
+Process_num: 16 Thread_num: 1 TIME: 1.32345
+Process_num: 32 Thread_num: 1 TIME: 1.31011
+N process N thread
+Process_num: 2 Thread_num: 2 TIME: 1.94328
+Process_num: 4 Thread_num: 4 TIME: 1.24331
+Process_num: 8 Thread_num: 8 TIME: 1.01654
