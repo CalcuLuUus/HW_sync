@@ -1,0 +1,9 @@
+================ Training Loss (Sun Jul  9 14:36:45 2023) ================
+================ Training Loss (Sun Jul  9 14:37:11 2023) ================
+================ Training Loss (Sun Jul  9 14:37:43 2023) ================
+================ Training Loss (Sun Jul  9 14:39:20 2023) ================
+(epoch: 1, iters: 100, time: 0.134, data: 0.325) D_A: 0.261 G_A: 0.242 cycle_A: 1.470 idt_A: 0.618 D_B: 0.256 G_B: 0.320 cycle_B: 1.341 idt_B: 0.688 bg: 4.563 tv: 0.005 att: 3.539 
+(epoch: 1, iters: 100, time: 0.134, data: 0.325) D_A: 0.261 G_A: 0.242 cycle_A: 1.470 idt_A: 0.618 D_B: 0.256 G_B: 0.320 cycle_B: 1.341 idt_B: 0.688 bg: 4.563 tv: 0.005 att: 3.539 
+================ Training Loss (Sun Jul  9 14:45:34 2023) ================
+(epoch: 1, iters: 100, time: 0.134, data: 0.743) D_A: 0.287 G_A: 0.152 cycle_A: 1.057 idt_A: 0.844 D_B: 0.259 G_B: 0.257 cycle_B: 1.798 idt_B: 0.481 bg: 3.238 tv: 0.004 att: 3.726 
+(epoch: 1, iters: 100, time: 0.134, data: 0.743) D_A: 0.287 G_A: 0.152 cycle_A: 1.057 idt_A: 0.844 D_B: 0.259 G_B: 0.257 cycle_B: 1.798 idt_B: 0.481 bg: 3.238 tv: 0.004 att: 3.726 
